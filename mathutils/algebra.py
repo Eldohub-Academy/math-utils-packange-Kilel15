@@ -1,3 +1,4 @@
+ 1c6feb1 (Added mathutils package, setup.py, and tests)
 def solve_linear(a, b):
     """
     Solves a simple linear equation of the form ax + b = 0.
@@ -15,3 +16,4 @@ def solve_linear(a, b):
     if a == 0:
         raise ValueError("Coefficient 'a' cannot be zero")
     return -b / a
+>>>>>>> 1c6feb1 (Added mathutils package, setup.py, and tests)
